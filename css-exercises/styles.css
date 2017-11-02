@@ -1,3 +1,32 @@
-p {
+#id1 {
+  color:blue;
+  font-family: verdana;
+}
+
+
+#id2 {
   color:red;
+}
+
+.bluev {
+  color:purple;
+  font-family:verdana;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+.bluev p {
+  color: yellow;
+  font-family: verdana;
+}
+
+h1 {
+  color:green;
+}
+
+p {
+  color:pink;
 }
