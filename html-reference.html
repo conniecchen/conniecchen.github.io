@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1 style= "color:DodgerBlue;">HTML Reference Page</h1>
-<p style= "font-size: 18px;"> Element: HTML <br> 
+<body style= "font-size: 18px;">
+<h1 style= "text-align: center; color:DodgerBlue;">HTML Reference Page</h1>
+<p><b>Element: HTML</b><br> 
 Tag Used: &lt;html&gt;- in beginning of the document <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
 &lt;/html&gt;- in end of the whole document <br>
 About: The root element of an html page <br> 
 Appearance: Should not appear in actual browser 
-<br>
-<br>
-
-Element: Header <br>
+<hr>
+<b>Element: Header</b> <br>
 Tag Used: &lt;head&gt;- placed right after html tag <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
   &lt;/head&gt;- placed after defining the head (usually title)<br>
 About: Contains meta information about the document <br>
 Appearance: Should not appear in actual browser
-<br>
-<br>
-
-Element: Title <br>
+<hr>
+<b>Element: Title <br></b>
 Tag Used: &lt;title&gt;- placed after head tag <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
    &lt;/title&gt;- placed after defining title <br>
@@ -35,49 +31,151 @@ Example format: <br>
 &lt;title&gt;Page Title&lt;/title&gt;<br>
 &lt;/head&gt;<br>
 &lt;/html&gt;<br>
-<br>
+<hr>
 
-Element: Body <br>
+<b>Element: Body <br></b>
 Tag Used: &lt;body&gt;- when starting to actually write content<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
   &lt;/body&gt;- after done writing the content <br>
 About: contains the visible page content <br>
 Appearance: Should not appear in actual browser, but is needed in order for content to appear
-<br>
-<br>
+<hr>
 
-Element: Headings <br>
+<b>Element: Headings <br></b>
 Tag Used: &lt;h1&gt;,&lt;h2&gt;... and &lt;/h1&gt;&lt;/h2&gt;...<br>
-About: &lt;h1&gt; defines a large heading, &lt;h2&gt; would be a smaller heading, &lt;h3&gt; would be even smaller and so on. <br>
+About: &lt;h1&gt; defines a large heading, &lt;h2&gt; would be a smaller heading, &lt;h2&gt; would be even smaller and so on. <br>
 Appearance: <br>
 <p style="font-size: 30px; line-height: 1px;">Heading 1 </p> <br>
 <p style="font-size: 20px; line-height: 1px;">Heading 2 </p>
-<br>
+<hr>
 <p style="font-size: 18px;"</p>
-Element: Paragraphs <br>
+<b>Element: Paragraphs <br></b>
 Tag Used:&lt;p&gt; and &lt;/p&gt; <br>
 About: defines a paragraph <br>
-Appearance: "This is a paragraph" <br> <br>
-Element: Breaks <br>
+Appearance: "This is a paragraph" 
+<hr>
+<b>Element: Breaks <br></b>
 Tag Used: &lt;br&gt; <br>
-About: defines a line break, an empty element without a closing tag <br>
+About: defines a line break, an empty element without a closing tag<br>
 Appearance:
 This is <br>
-a line break <br> <br>
-
-Element: Lines <br>
+a line break 
+<hr>
+<b>Element: Lines <br></b>
 Tag Used: &lt;hr&gt; <br>
 About: a line going across the page, used when dividing sections <br>
-Appearance: <hr> 
-<p style="font-size: 18px;"</p>
-Element: Comments <br>
+Appearance: is the line below<hr> 
+<hr>
+<b>Element: Comments <br></b>
 Tag Used: &lt;!-- --&gt; <br>
 About: Can place notifications and reminders in your HTML or can be used to debug html <br>
-Appearance: Should not appear in actual broswer <br> <br>
-
-Element: Links <br>
+Appearance: Should not appear in actual broswer
+<hr>
+<b>Element: Links <br></b>
 Tag Used: &lt;a&gt; (popular one is &lt;a href&gt;) and &lt;/a&gt; <br>
+Example: &lt;a href="url"&gt;link text&lt;/a&gt; <br>
+About: The href attribute specifies the destination address. The link text is the visible part. <br>
+Appearance: <a href="/exercises">Exercise Home</a>
+<hr>
+<b>Element: Images</b><br>
+Tag Used: &lt;img&gt; <br>
+Example: &lt;img src="url"&gt; <br>
+About: The &lt;img&gt; tag is empty and does not have a closing tag. The src attribute defines the URL of the image. <br>
+Appearance: <br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt:"HTML5"> 
+<hr>
+<b>Element: Lists</b> <br>
+Tag Used: &lt;ul&gt;-starts an unordered list (just bullet points) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;ol&gt;-starts an ordered list(numbered list)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;- each list item starts with this<br>
+Example: <br> &lt;ul&gt; <br>
+  &lt;li&gt;Coffee&lt;/li&gt;<br>
+  &lt;li&gt;Tea&lt;/li&gt;<br>
+  &lt;li&gt;Milk&lt;/li&gt; <br>
+&lt;/ul&gt; <br>
+About: Used to list items (numbered, bullets,letters, etc) <br>
+Appearance:
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> <hr>
+<b>Element: Tables</b> <br>
+Tag Used: &lt;table&gt;- defines a table <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;tr&gt;- defines a table row <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;th&gt;- defines a table heading <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;td&gt;- defines the data in table <br>
+Example: <br>&lt;table style="width:300px"> <br> 
+  &lt;caption&gt;Names&lt;/caption&gt;<br>
+  &lt;tr&gt;<br>
+  &nbsp;  &lt;th&gt;Course Name&lt;/th&gt;<br>
+  &nbsp;  &lt;th&gt;Teacher&lt;/th&gt;<br>
+  &nbsp;  &lt;th&gt;Period&lt;/th&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+  &nbsp;  &lt;td&gt;Math&lt;/td&gt;<br>
+  &nbsp;  &lt;td&gt;Johnson&lt;/td&gt;<br>
+  &nbsp;  &lt;td&gt;1&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+   &nbsp; &lt;td&gt;English&lt;/td&gt;<br>
+  &nbsp;  &lt;td&gt;Poppy&lt;/td&gt;<br>
+  &nbsp;  &lt;td&gt;2&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+   &nbsp;   &lt;td&gt;Chemistry&lt;/td&gt;<br>
+  &nbsp;    &lt;td&gt;Burke&lt;/td&gt;<br>
+    &nbsp;  &lt;td&gt;3&lt;/td&gt;<br>
+    &lt;/tr&gt; <br>
+    &lt;/table&gt; <br>
+About: used to create a table <br>
+Appearance: 
+<style>
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+tr {
+    background-color: white;
+    color: black;
+}
+</style>
+<table style="width:300px">
 
+  <tr>
+    <th>Course Name</th>
+    <th>Teacher</th>
+    <th>Period</th>
+  </tr>
+  <tr>
+    <td>Math</td>
+    <td>Johnson</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>Poppy</td>
+    <td>2</td>
+  </tr>
+  <tr>
+      <td>Chemistry</td>
+      <td>Burke</td>
+      <td>3</td>
+  </tr>
+</table>
+<hr>
+<b>Element: Blocks</b> <br>
+Tag Used: &lt;div&gt; <br>
+About: to define a section of a document, used when wanting to specify a whole section a certain style. For example, below, I specified the whole section as the background color black and text white.<br> 
+Appearance: 
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>Computer Science</h2>
+  <p>HTML Reference Page: Div</p>
+</div>
 
   </body>
 </html>
