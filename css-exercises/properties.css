@@ -1,0 +1,27 @@
+.mystyle {
+  color: blue;
+}
+
+.mybstyle {
+  border: 2px solid Violet;
+}
+
+.mybgstyle {
+  background-color: lightblue;
+}
+
+.mybgistyle {
+  background-image: url("https://goo.gl/jcdXn2");
+}
+
+.mytstyle {
+  text-align: center;
+}
+
+.myfstyle {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.myfontstyle {
+  font: bold 15px arial, sans-serif;
+}
