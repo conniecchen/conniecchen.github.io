@@ -1,23 +1,12 @@
 <!DOCTYPE html>
 <html>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-}
-tr {
-    background-color: white;
-    color: black;
-}
-</style>
-<h1 style= "color:DodgerBlue;">HTML Reference Page</h1>
+  <head>
+    <link href="html-reference.css" rel="stylesheet" type="text/css" />
+  </head>
+<h1 class= "headingstyle">HTML Reference Page</h1>
 
-<body style= "font-size: 17px;">
-<b style="font-size:20px; background-color:LightGray; width:15px;">Overview</b>  
+<body class="body">
+<b class="sheading">Overview</b>  
 <table style="width:100%; border-collapse:collapse;">
 
   <tr>
@@ -66,7 +55,7 @@ tr {
       <td><a href="#breaks">Breaks</a></td>
       <td>&lt;br&gt;</td>
       <td>NA</td>
-      <td>...&lt;br&gt (next line)...;</td>
+      <td>...&lt;br&gt (next line)...</td>
   </tr>
     <tr>
       <td><a href="#lines">Lines</a></td>
@@ -125,145 +114,135 @@ tr {
 </table>
 
 <a name="html"></a>  
-<p><b style="background-color:LightGray;width:15px;">Element: HTML</b><br> 
-Tag Used: &lt;html&gt;- in beginning of the document <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
-&lt;/html&gt;- in end of the whole document <br>
-About: The root element of an html page <br> 
-Appearance: Should not appear in actual browser <br>
+<p><b class="sheading">Element: HTML</b><br> 
+<h3>Tag Used:</h3> &lt;html&gt;- in beginning of the document <br>
+&lt;/html&gt;- in end of the whole document <br> 
+<h3>About:</h3> The root element of an html page <br>
+<div class="box"><h3 class="example">Example:</h3><p class ="content">&lt;html&gt; <br> ..... <br> &lt;/html&gt;</p> </div>
+<h3>Appearance:</h3> Should not appear in actual browser<br>
     <a href= "https://www.w3schools.com/html/html_basic.asp">W3 Schools</a>
 <hr> 
 
 <a name="head"></a>
-<b style="background-color:LightGray;width:15px;">Element: Head</b> <br>
-Tag Used: &lt;head&gt;- placed right after html tag <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<b class="sheading">Element: Head</b> <br>
+<h3>Tag Used: </h3>  &lt;head&gt;- placed right after html tag <br>
   &lt;/head&gt;- placed after defining the head (usually title)<br>
-About: Contains meta information about the document <br>
-Appearance: Should not appear in actual browser <br>
-    <a href= "https://www.w3schools.com/html/html_headings.asp">W3 Schools</a>
+<h3>About: </h3> Contains meta information about the document <br>
+<div class="box"><h3 class="example">Example:</h3><p class ="content">&lt;html&gt; <br> &lt;head&gt;<br> ..... <br> &lt;/head&gt; <Br>&lt;/html&gt;</p> </div>
+<h3>Appearance:</h3>  Should not appear in actual browser <br> <a href= "https://www.w3schools.com/html/html_headings.asp">W3 Schools</a>
 <hr> 
 
 <a name="title"></a>
-<b style="background-color:LightGray;width:15px;">Element: Title <br></b>
-Tag Used: &lt;title&gt;- placed after head tag <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<b class="sheading">Element: Title <br></b>
+<h3>Tag Used: </h3> &lt;title&gt;- placed after head tag <br>
    &lt;/title&gt;- placed after defining title <br>
-About: specifies a title for the document <br>
-Appearance: Should not appear in actual browser <br>
-    <a href= "https://www.w3schools.com/html/html_attributes.asp">W3 Schools</a>
-<br>
-<br>
-
-Example format: <br>
-&lt;html&gt; <br>
+<h3>About: </h3> Specifies a title for the document <br> <div class="box"><h3 class="example">Example:</h3><p class ="content">&lt;html&gt; <br>
 &lt;head&gt; <br>
 &lt;title&gt;Page Title&lt;/title&gt;<br>
 &lt;/head&gt;<br>
-&lt;/html&gt;<br>
+&lt;/html&gt;<br</p> </div>
+<h3>Appearance: </h3> Should not appear in actual browser <br>
+    <a href= "https://www.w3schools.com/html/html_attributes.asp">W3 Schools</a>
 <hr>
 
 <a name="body"></a>
-<b style="background-color:LightGray;width:15px;">Element: Body <br></b>
-Tag Used: &lt;body&gt;- when starting to actually write content<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<b class="sheading">Element: Body <br></b>
+<h3>Tag Used: </h3> &lt;body&gt;- when starting to actually write content<br>
   &lt;/body&gt;- after done writing the content <br>
-About: contains the visible page content <br>
-Appearance: Should not appear in actual browser, but is needed in order for content to appear <br>
+<h3>About: </h3> Contains the visible page content <br><div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;body&gt;<br> ..... <br> &lt;/body&gt; <Br></p> </div>
+<h3>Appearance: </h3> Should not appear in actual browser, but is needed in order for content to appear <br>
     <a href= "https://www.w3schools.com/html/html_basic.asp">W3 Schools</a>
 <hr>
 
 <a name="headings"></a>
-<b style="background-color:LightGray;width:15px;">Element: Headings <br></b>
-Tag Used: &lt;h1&gt;Heading 1&lt;/h1&gt;, &lt;h2&gt;Heading 2&lt;/h2&gt;<br>, etc
-About: &lt;h1&gt; defines a large heading, &lt;h2&gt; would be a smaller heading, &lt;h2&gt; would be even smaller and so on. <br>
-Appearance: <br>
+<b class="sheading">Element: Headings <br></b>
+<h3>Tag Used: </h3> &lt;h1&gt;Heading 1&lt;/h1&gt;, &lt;h2&gt;Heading 2&lt;/h2&gt;, etc <br>
+<h3>About: </h3> &lt;h1&gt; defines a large heading, &lt;h2&gt; would be a smaller heading, &lt;h2&gt; would be even smaller and so on. <br> <div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;body&gt;<br> &lt;h1&gt;Heading1 &lt;/h1&gt; <br> &lt;h2&gt;Heading 2&lt;/h2&gt; <br> &lt;/body&gt; <Br></p> </div>
+<h3>Appearance:</h3>  <br>
 <p style="font-size: 30px; line-height: 1px;">Heading 1 </p> <br>
 <p style="font-size: 20px; line-height: 1px;">Heading 2 </p> <br>
     <a href= "https://www.w3schools.com/html/html_headings.asp">W3 Schools</a>
 <hr>
   
 <a name="paragraphs"></a>
-<b style="background-color:LightGray;width:15px;">Element: Paragraphs <br></b>
-Tag Used:&lt;p&gt;Content&lt;/p&gt; <br>
-About: defines a paragraph <br>
-Appearance: "This is a paragraph" <br>
+<b class="sheading">Element: Paragraphs <br></b>
+<h3>Tag Used:</h3>&lt;p&gt;Content&lt;/p&gt; <br>
+<h3>About:</h3> defines a paragraph <br> <div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;body&gt;<br> &lt;p&gt;This is a paragraph.&lt;/p&gt; <br> &lt;/body&gt; <Br></p> </div>
+<h3>Appearance: </h3>This is a paragraph <br>
     <a href= "https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools</a>
 <hr>
 
 <a name="breaks"></a>
-<b style="background-color:LightGray;width:15px;">Element: Breaks <br></b>
-Tag Used: &lt;br&gt; <br>
-About: defines a line break, an empty element without a closing tag<br>
-Appearance:
+<b class="sheading">Element: Breaks <br></b>
+<h3>Tag Used:</h3> &lt;br&gt; <br>
+<h3>About: </h3>defines a line break, an empty element without a closing tag<br> <div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;p&gt;This is &lt;br&gt; a line break &lt;/p&gt;<br> </p> </div>
+<h3>Appearance: </h3>
 This is <br>
 a line break <br>
     <a href= "https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools</a>
 <hr>
 
 <a name="lines"></a>
-<b style="background-color:LightGray;width:15px;">Element: Lines <br></b>
-Tag Used: &lt;hr&gt; <br>
-About: a line going across the page, used when dividing sections <br>
-Appearance: is the line below<hr> <br>
+<b class="sheading">Element: Lines <br></b>
+<h3>Tag Used:</h3> &lt;hr&gt; <br>
+<h3>About:</h3> a line going across the page, used when dividing sections <br>
+<h3>Appearance:</h3> is the line below<hr> <br>
      <a href= "https://www.w3schools.com/tags/tag_hr.asp">W3 Schools</a>
 <hr>
 
 <a name="comments"></a>
-<b style="background-color:LightGray;width:15px;">Element: Comments <br></b>
-Tag Used: &lt;!-- --&gt; <br>
-About: Can place notifications and reminders in your HTML or can be used to debug html <br>
-Appearance: Should not appear in actual broswer <br>
+<b class="sheading">Element: Comments <br></b>
+<h3>Tag Used:</h3> &lt;!-- --&gt; <br>
+<h3>About:</h3> Can place notifications and reminders in your HTML or can be used to debug html <br> 
+<div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;!--A heading --&gt; <br> &lt;h1&gt; Heading 1 &lt;/h1&gt; </p> </div>
+<h3>Appearance: </h3>Should not appear in actual broswer <br>
     <a href= "https://www.w3schools.com/html/html_comments.asp">W3 Schools</a>
 <hr>
 
 <a name="links"></a>
-<b style="background-color:LightGray;width:15px;">Element: Links <br></b>
-Tag Used: &lt;a&gt; (popular one is &lt;a href&gt;) and &lt;/a&gt; <br>
-Example: &lt;a href="url"&gt;link text&lt;/a&gt; <br>
-About: The href attribute specifies the destination address. The link text is the visible part. <br>
-Appearance: <a href="/exercises">Exercise Home</a> <br>
+<b class="sheading">Element: Links <br></b>
+<h3>Tag Used: </h3>&lt;a&gt; (popular one is &lt;a href&gt;) and &lt;/a&gt; <br> 
+<h3>About:</h3> The href attribute specifies the destination address. The link text is the visible part. <br> 
+<div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;a href="url"&gt;link text&lt;/a&gt;</p> </div>
+<h3>Appearance:</h3> <a href="/exercises">Exercise Home</a> <br> <br>
     <a href= "https://www.w3schools.com/html/html_links.asp">W3 Schools</a>
 <hr>
 
 <a name="images"></a>
-<b style="background-color:LightGray;width:15px;">Element: Images</b><br>
-Tag Used: &lt;img&gt; <br>
-Example: &lt;img src="url"&gt; <br>
-About: The &lt;img&gt; tag is empty and does not have a closing tag. The src attribute defines the URL of the image. <br>
-Appearance: <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt:"HTML5"> 
-<br>
+<b class="sheading">Element: Images</b><br>
+<h3>Tag Used:</h3> &lt;img&gt; <br>
+<h3>About: </h3>The &lt;img&gt; tag is empty and does not have a closing tag. The src attribute defines the URL of the image. <br><div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;img src="url"&gt;</p> </div>
+<h3>Appearance:</h3> <br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt:"HTML5">  <br>
     <a href= "https://www.w3schools.com/html/html_images.asp">W3 Schools</a>
-    <hr>
+<hr>
 
 <a name="lists"></a>
-<b style="background-color:LightGray;width:15px;">Element: Lists</b> <br>
-Tag Used: &lt;ul&gt;-starts an unordered list (just bullet points) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;ol&gt;-starts an ordered list(numbered list)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;- each list item starts with this<br>
-Example: <br> &lt;ul&gt; <br>
+<b class="sheading">Element: Lists</b> <br>
+<h3>Tag Used:</h3> &lt;ul&gt;-starts an unordered list (just bullet points) <br>
+&lt;ol&gt;-starts an ordered list(numbered list)<br>
+&lt;li&gt;- starts each list item<br>
+<h3>About:</h3> Used to list items (numbered, bullets,letters, etc) <br> <div class="box"><h3 class="example">Example:</h3><p class ="content"> </h3>&lt;ul&gt; <br>
   &lt;li&gt;Coffee&lt;/li&gt;<br>
   &lt;li&gt;Tea&lt;/li&gt;<br>
   &lt;li&gt;Milk&lt;/li&gt; <br>
-&lt;/ul&gt; <br>
-About: Used to list items (numbered, bullets,letters, etc) <br>
-Appearance:
+&lt;/ul&gt;</p> </div>
+<h3>Appearance:</h3>
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> <br>
-    <a href= "https://www.w3schools.com/html/html_lists.asp">W3 Schools</a>
-    <hr>
+    <a href= "https://www.w3schools.com/html/html_lists.asp">W3 Schools</a> <hr>
 
 <a name="tables"></a>
-<b style="background-color:LightGray;width:15px;">Element: Tables</b> <br>
-Tag Used: &lt;table&gt;- defines a table <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;tr&gt;- defines a table row <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;th&gt;- defines a table heading <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b class="sheading">Element: Tables</b> <br>
+<h3>Tag Used:</h3> &lt;table&gt;- defines a table <br>
+&lt;tr&gt;- defines a table row <br>
+&lt;th&gt;- defines a table heading <br>
 &lt;td&gt;- defines the data in table <br>
-Example: <br>&lt;table style="width:300px"> <br> 
+<h3>About:</h3> used to create a table <br> <div class="box2"><h3 class="example">Example:</h3><p class ="content"> </h3>&lt;ul&gt; <br>
+ &lt;table style="width:300px"> <br> 
   &lt;caption&gt;Names&lt;/caption&gt;<br>
   &lt;tr&gt;<br>
   &nbsp;  &lt;th&gt;Course Name&lt;/th&gt;<br>
@@ -285,9 +264,8 @@ Example: <br>&lt;table style="width:300px"> <br>
   &nbsp;    &lt;td&gt;Burke&lt;/td&gt;<br>
     &nbsp;  &lt;td&gt;3&lt;/td&gt;<br>
     &lt;/tr&gt; <br>
-    &lt;/table&gt; <br>
-About: used to create a table <br>
-Appearance: 
+    &lt;/table&gt; <br></p> </div>
+<h3>Appearance: </h3>
 <table style="width:300px">
 
   <tr>
@@ -310,25 +288,23 @@ Appearance:
       <td>Burke</td>
       <td>3</td>
   </tr>
-</table>
-    <br>
+</table>  <br>
     <a href= "https://www.w3schools.com/html/html_tables.asp">W3 Schools</a>
 <hr>
 
 <a name="blocks"></a>
-<b style="background-color:LightGray;width:15px;">Element: Blocks</b> <br>
-Tag Used: &lt;div&gt; <br>
-About: to define a section of a document, used when wanting to specify a whole section a certain style. For example, below, I specified the whole section as the background color black and text white.<br> 
-Appearance: 
+<b class="sheading">Element: Blocks</b> <br>
+<h3>Tag Used:</h3> &lt;div&gt; <br>
+<h3>About:</h3> To define a section of a document, used when wanting to specify a whole section a certain style.<br> <div class="box"><h3 class="example">Example:</h3><p class ="content"> &lt;div style="background-color:black;color:white;"&gt; <br>&lt;h2&gt;Computer Science&lt;h2&gt; <br> &lt;p&gt;HTML Reference Page &lt;/p&gt; <br> &lt;/div&gt;</p> </div>
+<h3>Appearance: </h3>
 <div style="background-color:black;color:white;padding:20px;">
   <h2>Computer Science</h2>
   <p>HTML Reference Page: Div</p>
 </div>
  <br>
-    <br>
     <a href= "https://www.w3schools.com/html/html_blocks.asp">W3 Schools</a>
-    <hr>
-  <a href="https://conniecchen.github.io/index.html">Home Page</a> 
+     <hr>
+  <a href="https://conniecchen.github.io/index.html">Home Page</a>
   </body>
 </html>
 
