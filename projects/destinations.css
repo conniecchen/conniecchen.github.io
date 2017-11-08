@@ -1,0 +1,154 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+  margin-right: 50px;
+  position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width:100%;
+    z-index: 10;
+
+}
+
+li {
+  float: right;
+  background: white;
+}
+
+ul p {
+    float: left;
+    position: fixed;
+    font-size:17px;
+    border:1px solid black;
+    padding: 5px;
+    margin: 10px 15px 15px 10px;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+}
+.destinations {
+  color:white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 38px;
+}
+
+.image {
+  background-image: url('https://www.euractiv.com/wp-content/uploads/sites/2/2015/09/santorini_wikipedia.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 110px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.rome {
+  background-image: url('https://travelpast50.com/wp-content/uploads/2016/10/colonna-palace-rome-italy-2.jpg');
+  width:250px; 
+  height: 150px;
+  display:inline-block;
+  background-size:cover;
+  margin-left: 50px;
+  margin-bottom:40px;
+  text-decoration: none;
+  float: left; height: 15em; margin-right: 1%; 
+}
+.rometext { font-size:23px;
+  font-family: Helvetica;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+.greece {
+  background-image: url('https://lh4.googleusercontent.com/proxy/6L46buQQijOo9qyHJP02bRTllnBnSx4U9THr13dyB78zeRqa4bFeV0uvqMg7AkAsjGiioKJ1vPc8RkSkBMbkIoQzijOksXnaZl9XLDsS=w5000-h5000');
+  width:250px; 
+  height: 150px;
+  margin-left:25px;
+  display:inline-block;
+  background-size:cover;
+  text-decoration: none;
+  margin-bottom:40px;
+  float: left; height: 15em; margin-right: 1%;
+}
+.greecetext { font-size:23px;
+  font-family: Helvetica;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+.paris {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/615StV0ULHL._SY550_.jpg');
+  width:250px; 
+  height: 400px;
+  margin-left:25px;
+  display:inline-block;
+  background-size:cover;
+  text-decoration: none;
+  margin-bottom:40px;
+  float: left; height: 15em; margin-right: 1%; 
+}
+.paristext { font-size:23px;
+  font-family: Helvetica;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+.prague {
+  background-image: url('http://i.dailymail.co.uk/i/pix/2016/04/19/16/31B31E1500000578-3548084-image-a-9_1461080382683.jpg');
+  position: relative;
+  width:365px; 
+  height: 250px;
+  margin-left:25px;
+  display:inline-block;
+  background-size:cover;
+  text-decoration: none;
+  margin-bottom:40px;
+  float: left; height: 15em; margin-right: 1%; 
+}
+.praguetext { font-size:23px;
+  font-family: Helvetica;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
