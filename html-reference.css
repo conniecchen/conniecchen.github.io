@@ -1,30 +1,53 @@
-.body {
+/*Style for whole body*/
+body {
   font-size: 17px;
+  margin:55px;
+  font-family:Helvetica;
 }
 
+/*Style for the whole table*/
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+  width:60%; 
+  border-collapse:collapse; 
+  margin: 10px auto;
+  border: 2px solid black;
 }
+
+/*Style for only the table heading*/
+th {
+  background-color:rgb(240, 240, 240);
+}
+
+/*Style for the table heading and data*/
 th, td {
     padding: 5px;
     text-align: left;
 }
+
+/*Style for only the table rows*/
 tr {
     background-color: white;
     color: black;
 }
 
+/*HTML Reference Page Style*/
 .headingstyle {
   color: DodgerBlue;
+  text-align: center;
+  background-color: rgb(240, 240, 240) ;
 }
 
-.sheading {
+/*Style for each section heading*/
+h2 {
   font-size:20px; 
-  background-color:LightGray; 
-  width:15px;
 }
 
+/*Style for each section heading*/
+h2 span {
+  background-color:LightGray;
+}
+
+/*Style for Example sections*/
 .example {
   margin: 15px;
 }
