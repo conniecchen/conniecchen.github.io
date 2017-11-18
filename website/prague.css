@@ -1,0 +1,102 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    position:fixed;
+    width:100%;
+    top:0;
+    font-size: 23px;
+}
+
+li {
+  float: right;
+  background: white;
+}
+
+ul p {
+    float: left;
+    position: fixed;
+    font-size:23px;
+    border:1px solid black;
+    padding: 5px;
+    margin: 10px 15px 15px 10px;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+.image {
+  background-image:url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1488485685/prague-castle-czech-republic-PRACAS0302.jpg?itok=pKVluQP6');
+  background-size: cover;
+  background-position:center;
+  height: 300px;
+}
+
+.prague {
+  color:white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+
+.overview {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color:#333;
+  text-align: center;
+  width:50%;
+  margin-left:320px;
+  font-size:25px;
+}
+
+table {
+  text-align:center;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border:6px;
+}
+
+th {
+  font-size:20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  padding-top: 1em;
+  color:#333;
+  width:100px;
+  padding-bottom: 1em;
+
+}
+
+td {
+  border:10px;
+  padding: 5px;
+  text-align:left;
+  overflow: hidden; 
+  font-size:20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color:#333;
+}
+
+td img {
+  width:100px; 
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
