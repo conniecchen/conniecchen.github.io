@@ -52,7 +52,7 @@ li a:hover, .dropdown:hover .dropbtn {
   margin-right: 50px;
 }
 .rome {
-  background-image: url('https://travelpast50.com/wp-content/uploads/2016/10/colonna-palace-rome-italy-2.jpg');
+  background-image: url('/images/romedestinations.jpg');
   float: left; 
   height: 8em;
   margin-right: 1%; 
@@ -70,7 +70,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .paris {
-  background-image: url('https://images-na.ssl-images-amazon.com/images/I/615StV0ULHL._SY550_.jpg');
+  background-image: url('/images/parsidestinations.jpg');
   float: left; 
   height: 8em;
   margin-right: 1%; 
@@ -88,7 +88,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .greece {
-  background-image: url('https://lh4.googleusercontent.com/proxy/6L46buQQijOo9qyHJP02bRTllnBnSx4U9THr13dyB78zeRqa4bFeV0uvqMg7AkAsjGiioKJ1vPc8RkSkBMbkIoQzijOksXnaZl9XLDsS=w5000-h5000');
+  background-image: url('/images/greecedestinations.jpg');
   float: left; 
   height: 8em;
   margin-right: 1%; 
@@ -106,7 +106,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .prague {
-  background-image: url('https://martinbisof.com/wp-content/uploads/2017/03/Dave3-1.jpg');
+  background-image: url('/images/praguedestinations.html');
   float: left; 
   height: 8em;
   margin-right: 1%; 
