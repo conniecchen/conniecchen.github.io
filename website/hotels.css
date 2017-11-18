@@ -43,7 +43,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 
 .image {
-  background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1390000/1383100/1383015/1383015_24_z.jpg');
+  background-image:url('/images/hotels.jpg');
   background-size: cover;
   background-position:center;
   height: 300px;
